@@ -1,0 +1,172 @@
+link, li, table{
+    font-family: 'Mulish', sans-serif;
+    color: #3E1404;
+}
+
+header{
+    background-size: cover;
+    background-color: #ececec;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 42;
+    padding-bottom: 44;
+}
+
+  
+  .drinks {
+    margin-left: auto;
+  }
+  
+  .links li {
+    padding: 1rem;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 42px;
+    padding-bottom: 44px;
+    margin-left: 88px;
+    color: #3E1404;
+
+}
+
+h2{
+
+}
+
+h3{
+    display: flex;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+h4{
+    display: flex;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;  
+}
+
+li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-weight: bold;
+    
+}
+
+
+.links {
+    display: flex;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    padding-top: 42px;
+    padding-bottom: 44px;
+    margin-right: 88px;
+    font-weight: bold;
+}
+
+  
+.links li {
+    padding-left: 51px;
+    padding-right: 51px;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+
+
+}
+
+
+.aboutus{
+    position:absolute;
+    bottom: -10px;
+    margin-top: 93120px;
+    margin-bottom: 113px;
+    margin-left: 88px;
+    color: #3E1404;
+    width:393px;
+    
+}
+
+.sectionabout{
+    position:absolute;
+    margin-left: 88px;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color: #3E1404;
+    padding-top: 200px;
+}
+
+table {
+    
+    min-width: 250px;
+    max-width: 350px;
+    padding-bottom: 113px;
+    padding-top: 113px;
+    margin-left: 88px;
+    
+  }
+  
+table .header {
+    align-items: bottom;  
+    font-size: 18pt;
+    font-weight: bold;
+    min-width: 200px;
+    padding-right: 10px;
+    padding-bottom: 28px;
+  }
+  
+th {    
+    padding-bottom: 25px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+td {
+    height: 25px;
+    line-height: 16px;
+    padding-bottom:9px;
+    padding-right: 20px;
+    letter-spacing: ;
+  }
+
+
+
+  footer{
+    background-color: #CFCFCF;
+    color: #3E1404;
+}
+
+
+
+@media screen and (max-width: 375px){
+  
+}
+
+@media screen and (min-width: 376px) and (max-width: 768) {
+  .tablegrid{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+}
+
+@media screen and (min-width: 769px){
+    .tablegrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
