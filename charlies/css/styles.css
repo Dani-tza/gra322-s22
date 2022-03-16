@@ -36,18 +36,43 @@ h2{
 
 }
 
-h3{
+h6{
     display: flex;
     font-size: 18px;
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
+    margin-left: 88px;
+    
 }
 
-h4{
+h7{
     display: flex;
     font-size: 18px;
     font-family: 'Mulish', sans-serif;
-    font-weight: 600;  
+    font-weight: 600; 
+    margin-left: 197px;
+    padding-top: 68px;
+    width: 300px;
+}
+
+h8{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin-left: 650px;
+    padding-top: 68px;
+    
+}
+
+h9{
+    display: flex;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600; 
+    margin-left: 197px;
+    padding-top: 68px;
+    width: 300px;
+    margin-left: 759px;
 }
 
 li{
@@ -146,10 +171,23 @@ td {
 
 
 
-  footer{
+footer{
     background-color: #CFCFCF;
+    background-size: auto;
     color: #3E1404;
+    padding-bottom: 68px;
+    padding-top: 68px;
+    
+
+    
+
+    
 }
+
+.footer{
+}
+
+
 
 
 
