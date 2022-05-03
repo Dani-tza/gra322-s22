@@ -1,0 +1,100 @@
+html{
+    --white: #fff;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.programbuk{
+    font-family: 'Montserrat', sans-serif;
+    color:
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:#707070;
+    font-size: 14.5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 25px) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 25px) [full-end];
+}
+
+.grid> * {
+    grid-column: main;
+}
+
+.dani{
+    padding-top: 31px;
+    padding-bottom: 23px;
+    text-decoration: none;
+    color: #707070;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #707070;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 17px;
+    padding-right: 25px;
+}
+
+.column{
+    flex: 50%;
+    padding-left: 8px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.class{
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+    font-size: 12px;
+}
+
+.copyright{
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+    font-size: 14.5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.rinddescription{
+    font-family: 'Montserrat', sans-serif;
+    color:#707070;
+    font-size: 14.5px;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .row {
+        max-width: 100%;
