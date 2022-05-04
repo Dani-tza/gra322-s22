@@ -1,19 +1,13 @@
 html{
-    --white: #fff;
+    background-color: #eeeeeb;
     scroll-behavior: smooth;
+    
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
-.programbuk{
-    font-family: 'Montserrat', sans-serif;
-    color:
-    font-size: 12px;
-    padding-bottom: 12px;
 }
 
 body{
@@ -47,14 +41,17 @@ a:link{
     text-decoration: none;
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
 a:visited{
     text-decoration: none;
-    color: #707070;
+    color: #2b3787;
 }
+
+a:hover{
+    text-decoration: none;
+    color: #2b3787;
+}
+
+
 
 .row{
     display: flex;
@@ -72,6 +69,10 @@ a:visited{
 .column img{
     margin-top: 8px;
     vertical-align: middle;
+    width: 100%;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
 
 .class{
@@ -98,3 +99,5 @@ a:visited{
 @media screen and (max-width: 1400px) {
     .row {
         max-width: 100%;
+    }
+}
